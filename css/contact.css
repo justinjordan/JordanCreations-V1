@@ -1,0 +1,182 @@
+#contactInfo
+{
+	display: block;
+	position: relative;
+	
+	margin: 40px auto 0;
+	
+	width: 540px;
+}
+
+	#portrait
+	{
+		display: inline-block;
+		float: left;
+	}
+		#portrait img
+		{
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+			-khtml-border-radius: 20px;
+			border-radius: 20px;
+		}
+		#portrait p
+		{
+			margin-top: 8px;
+			font-family: "Comfortaa", sans-serif;
+			font-size: 10pt;
+			color: #888;
+			letter-spacing: 4px;
+			text-align: center;
+		}
+
+	#info
+	{
+		display: inline-block;
+		float: right;
+		margin-top: 30px;
+		
+		height: 200px;
+		
+		font-size: 12pt;
+		text-align: left;
+	}
+		#info p
+		{
+			margin-bottom: 20px;
+			letter-spacing: 2px;
+			font-family: "Comfortaa", sans-serif;
+		}
+
+	.contact-heading
+	{
+		font-weight: bold;
+		font-size: 16pt;
+	}
+	.contact-info
+	{
+		margin-left: 10px;
+	}
+
+#contactForm
+{
+	display: block;
+	position: relative;
+	width: 625px;
+	min-height: 400px;
+	margin: 330px auto 80px;
+	background-color: #ddd;
+	
+	padding: 20px;
+	
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+}
+	#contactForm .success_msg
+	{
+		text-align: center;
+		font-family: "Comfortaa", sans-serif;
+		font-size: 14pt;
+		margin-top: 40px;
+		letter-spacing: 2pt;
+	}
+	#contactForm .failure_msg
+	{
+		text-align: justify;
+		vertical-align: top;
+		font-family: "Comfortaa", sans-serif;
+		font-size: 14pt;
+		margin: 40px 30px 0;
+		letter-spacing: 2pt;
+		line-height: 30px;
+	}
+	#contactForm .incomplete_msg
+	{
+		text-align: center;
+		vertical-align: top;
+		font-family: "Comfortaa", sans-serif;
+		font-size: 14pt;
+		margin: 20px 30px 40px;
+		letter-spacing: 2pt;
+		line-height: 30px;
+	}
+	#contactForm p
+	{
+		margin-bottom: 20px;
+	}
+		#contactForm label
+		{
+			margin: 0 3px 5px;
+			font-family: "Comfortaa", sans-serif;
+			font-size: 10pt;
+			text-transform: lowercase;
+		}
+		#contactForm label[for=comments]
+		{
+			display: block;
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+		#contactForm input
+		{
+			font-family: "Comfortaa", sans-serif;
+			font-size: 10pt;
+			letter-spacing: 3px;
+		}
+		#contactForm input[type=text]
+		{
+			position: absolute;
+			left: 80px;
+			width: 560px;
+			background-color: #ddd;
+			border: 0;
+			border-bottom: 1px solid #aaa;
+			padding-bottom: 5px;
+		}
+		#contactForm input[type=text]:focus
+		{
+			outline: 0;
+		}
+		
+		#contactForm textarea
+		{
+			background-color: #ddd;
+			border: 1px solid #aaa;
+			width: 600px;
+			height: 200px;
+			padding: 10px;
+			
+			resize: none;
+			
+			font-family: "Comfortaa", sans-serif;
+			font-size: 10pt;
+			letter-spacing: 3px;
+		}
+		#contactForm textarea:focus
+		{
+			outline: 0;
+		}
+		#contactForm input[type=submit]
+		{
+			border: 0;
+			background-color: #0be;
+			color: #fff;
+			
+			width: 80px;
+			margin: 20px auto 0;
+			
+			padding: 8px;
+			
+			text-transform: uppercase;
+			
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			-khtml-border-radius: 10px;
+			border-radius: 10px;
+		}
+		#contactForm input[type=submit]:hover
+		{
+			background-color: #0cf;
+		}
